@@ -17,7 +17,7 @@ class Coche {
   }
 
 
-  encender = () => {
+  encenderCarro = () => {
     console.log(`${this.#marca} ${this.#modelo} está encendido.`);
   };
 
@@ -28,7 +28,7 @@ const coche2 = new Coche("Toyota", "Toyota Camry", 2025);
 
 // Aquí se prueban los métodos
 console.log(coche1.obtenerDescripcion());
-coche1.encender();
+coche1.encenderCarro();
 
 console.log(coche2.obtenerDescripcion());
-coche2.encender();
+coche2.encenderCarro();
